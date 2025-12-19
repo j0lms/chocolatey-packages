@@ -7,7 +7,7 @@
     <title>RAD Debugger</title>
     <authors>Epic Games Tools</authors>
     <projectUrl>https://github.com/EpicGamesExt/raddebugger</projectUrl>
-    <iconUrl>https://cdn.jsdelivr.net/gh/j0lms/chocolatey-packages@main/icons/raddebugger.png</iconUrl>
+    <iconUrl>https://cdn.statically.io/gh/j0lms/chocolatey-packages@main/icons/raddebugger.png</iconUrl>
     <licenseUrl>https://github.com/EpicGamesExt/raddebugger/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/EpicGamesExt/raddebugger</projectSourceUrl>
