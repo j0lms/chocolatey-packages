@@ -1,0 +1,28 @@
+VERIFICATION
+
+Verification is intended to assist the Chocolatey moderators and community in verifying that this package's contents are trustworthy.
+
+The binaries included in this package are downloaded directly from the official RAD Debugger GitHub repository, which is maintained by Epic Games.
+
+To verify the files:
+
+    Use the URLs below to download the official release binaries.
+
+    Run Get-FileHash -Algorithm SHA256 <path_to_file> in PowerShell for each file.
+
+    Compare the resulting hash with the values provided below.
+
+    RAD Debugger (Main Executable)
+
+File: raddbg.exe URL: https://github.com/EpicGamesExt/raddebugger/releases/download/v0.9.24-alpha/raddbg.exe Checksum Type: SHA256 Checksum: 2c825c58c008ad109a60f95665182e013a489435fd807d8f9b54f649790f02bb
+
+    RAD Binary Utility
+
+File: radbin.exe URL: https://github.com/EpicGamesExt/raddebugger/releases/download/v0.9.24-alpha/radbin.exe Checksum Type: SHA256 Checksum: 336fc019fc5b19fc0f11a662fda543c7dd74e81291d345e9aef14d7a3853e340
+
+    RAD Linker
+
+File: radlink.exe URL: https://github.com/EpicGamesExt/raddebugger/releases/download/v0.9.24-alpha/radlink.exe Checksum Type: SHA256 Checksum: 44657105e531fa513d7142f47db0cc861f2d898ca688351f96578adc00e54d49
+Project Note
+
+The RAD Debugger project is currently in ALPHA. These binaries are native, user-mode tools for x64 Windows development. In addition to the debugger (raddbg), radbin provides debug info conversion (e.g., PDB to RDI) and radlink provides high-performance linking for large projects.

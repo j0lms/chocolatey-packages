@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>raddebugger</id>
+    <version>0.9.24.20251218-alpha</version>
+    <owners>j0lms</owners>
+    <title>RAD Debugger</title>
+    <authors>Epic Games</authors>
+    <projectUrl>https://github.com/EpicGamesExt/raddebugger</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/EpicGamesExt/raddebugger/master/data/logo.ico</iconUrl>
+    <licenseUrl>https://github.com/EpicGamesExt/raddebugger/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/EpicGamesExt/raddebugger</projectSourceUrl>
+    <packageSourceUrl>https://github.com/j0lms/chocolatey-packages/tree/main/automatic/raddebugger</packageSourceUrl>
+    <tags>raddebugger debugger gui debug raddbg linker</tags>
+    <summary>A native, user-mode, multi-process, graphical debugger.</summary>
+    <description>
+The RAD Debugger project is a native, user-mode, multi-process, graphical debugger toolchain. This package includes:
+
+* **RAD Debugger (raddbg)**: A graphical debugger for Windows x64 using PDBs and the custom RDI format.
+* **RAD Binary Utility (radbin)**: A CLI tool for converting native debug info (PDB/DWARF) to RDI and producing textual dumps.
+* **RAD Linker (radlink)**: A high-performance x64 PE/COFF linker designed for speed with gigantic executables.
+
+The RAD Linker is fully MSVC-compatible and can natively create RAD Debug Info (RDI) to eliminate on-demand conversion time.
+    </description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
