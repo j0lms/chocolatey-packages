@@ -5,9 +5,9 @@
     <version>0.9.24.20251218-alpha</version>
     <owners>j0lms</owners>
     <title>RAD Debugger</title>
-    <authors>Epic Games</authors>
+    <authors>Epic Games Tools</authors>
     <projectUrl>https://github.com/EpicGamesExt/raddebugger</projectUrl>
-    <iconUrl>https://raw.githubusercontent.com/EpicGamesExt/raddebugger/master/data/logo.ico</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/j0lms/chocolatey-packages@main/icons/raddebugger.png</iconUrl>
     <licenseUrl>https://github.com/EpicGamesExt/raddebugger/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/EpicGamesExt/raddebugger</projectSourceUrl>
